@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+.malla {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.materia {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  background-color: white;
+}
+.materia.aprobada {
+  background-color: #e74c3c;
+  color: white;
+}
+.materia.bloqueada {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+.malla-headers {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.malla-headers div {
+  padding: 5px;
+}
