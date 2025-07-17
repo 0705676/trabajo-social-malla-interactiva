@@ -59,6 +59,9 @@ const materiasPorColumna = [
   ],
   [
     { id: "practica3", nombre: "Prácticas TS III", prerrequisitos: ["practica2", "orientacion_familiar"] },
+  ],
+  [
+    { id: "trabajo_de_grado", nombre: "Trabajo de grado", prerrequisitos: [] }
     { id: "servicio_comunitario", nombre: "Seminario Servicio Comunitario", prerrequisitos: [] }
   ]
 ];
